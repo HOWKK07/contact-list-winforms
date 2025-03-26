@@ -35,28 +35,32 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(301, 100);
+            this.label1.Location = new System.Drawing.Point(452, 154);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.Size = new System.Drawing.Size(136, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh sách liên hệ";
             // 
             // btnThemLienHe
             // 
-            this.btnThemLienHe.Location = new System.Drawing.Point(507, 232);
+            this.btnThemLienHe.Location = new System.Drawing.Point(760, 357);
+            this.btnThemLienHe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThemLienHe.Name = "btnThemLienHe";
-            this.btnThemLienHe.Size = new System.Drawing.Size(125, 23);
+            this.btnThemLienHe.Size = new System.Drawing.Size(188, 35);
             this.btnThemLienHe.TabIndex = 1;
             this.btnThemLienHe.Text = "Thêm liên hệ";
             this.btnThemLienHe.UseVisualStyleBackColor = true;
+            this.btnThemLienHe.Click += new System.EventHandler(this.btnThemLienHe_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.btnThemLienHe);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
